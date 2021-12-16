@@ -1,0 +1,78 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Understanding TypeScript</title>
+  <script src="./dist/app.js" defer></script>
+</head>
+<body>
+  <div id="app"></div>
+  <button id='button'>Click me </button>
+  <form action="">
+    <input type="text" placeholder="Course title", id="title">
+    <input type="text" placeholder="Course price" id="price">
+    <button type="submit">Save</button>
+  </form>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Awesome TypeScript</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato:300, 400,400i,700,700i&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500&display=swap" rel="stylesheet">
+
+    <!-- <script src="./dist/app.js" defer></script> -->
+
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <h1>Awesome TypeScript </h1>
+    <h2>Content</h2>
+    <ul>
+      <li>Basic Types</li>
+      <li>Next Generation JavaScript</li>
+      <li>Classes</li>
+      <li>Interface</li>
+      <li>Advance Types(Mix of class and Interface)</li>
+      <li>Generics</li> 
+      <li>Decorators</li>
+    </ul>
+  </div>
+
+  <script>
+   
+     const wrapper = document.querySelector('.wrapper')
+    wrapper.style.width = '50%'
+     wrapper.style.margin = 'auto'
+    const title = document.querySelector('h1')
+    const subTitle = document.querySelector('h2')
+    title.style.textAlign = 'center'
+    title.style.fontFamily = 'Montserrat'
+    title.style.fontWeight = 500
+    subTitle.style.textAlign = 'center'
+    subTitle.style.fontFamily = 'Montserrat'
+    subTitle.style.fontWeight = 300
+    subTitle.style.textDecoration = 'underline'
+    const ul = document.querySelector('ul')
+    const lists = document.querySelectorAll('li')
+    for (const list of lists) {
+      list.style.listStyle = 'none'
+      list.style.padding = '25px'
+      list.style.margin = '3px'
+      list.style.fontFamily = 'Montserrat'
+      list.style.fontWeight = 300;
+      list.style.letterSpacing = '0.0625em'
+        list.style.background = '#fd5e53'
+    
+    }
+  </script>
+</body>
+
+</html>

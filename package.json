@@ -1,0 +1,21 @@
+{
+  "name": "awesome-typescript",
+  "version": "1.0.0",
+  "description": "Step by step guide to everything Typescript",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "type-server"
+  },
+  "keywords": [
+    "typescript", "basics", "javascript"
+  ],
+  "author": "Pushkar Kumar",
+  "license": "ISC",
+  "devDependencies": {
+    "type-server": "^2.5.4"
+  },
+  "dependencies": {
+    "typescript": "^4.4.4"
+  }
+}
